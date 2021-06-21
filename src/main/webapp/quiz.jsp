@@ -6,13 +6,22 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Submit</title>
+<script type="text/javascript" src="questions.js"></script>
+
 </head>
 <body>
 <%
-
-int eid=1;
-int last_name=2;
-
+String marks=request.getParameter("score");
+int mark=Integer.parseInt(marks);
+String e2=request.getParameter("id");
+int ei=Integer.parseInt(e2);
+String status;
+if(mark<=2){
+	status="FAIL";
+}
+else{
+	status="PASS";
+}
 try
 {
 Class.forName("com.mysql.cj.jdbc.Driver");
@@ -27,9 +36,7 @@ ResultSet rs=st.executeQuery(query);
 
 while(rs.next()) {
 String sid=rs.getString("sid");
-out.println("Inserting"+sid+eid+last_name+city_name);
-
-int i=st.executeUpdate("insert into result values('"+eid+"','"+last_name+"''"+city_name+"','"+sid+"')");
+int i=st.executeUpdate("insert into result values('"+ei+"','"+mark+"','"+status+"','"+sid+"')");
 out.println("Data is successfully inserted!");
 }
 }

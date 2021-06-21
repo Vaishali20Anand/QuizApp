@@ -62,7 +62,7 @@ restart_quiz.onclick = ()=>{
 
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
-   window.open("quiz.jsp");
+   window.open("quiz.jsp?score="+userScore+"&id="+eid);
 }
 
 const next_btn = document.querySelector("footer .next_btn");

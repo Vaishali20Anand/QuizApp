@@ -86,4 +86,20 @@
     <param-value>kiara@373</param-value>
 </context-param>
 
+<servlet>  
+<servlet-name>UploadServlet</servlet-name>  
+<servlet-class>UploadServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>UploadServlet</servlet-name>  
+<url-pattern>/go</url-pattern>  
+</servlet-mapping>  
+
+<servlet>  
+<servlet-name>SendEmail</servlet-name>  
+<servlet-class>Email</servlet-class>  
+</servlet>  
+
+  
 </web-app>

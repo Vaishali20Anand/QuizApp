@@ -28,8 +28,8 @@ public class LoginServlet extends HttpServlet {
 			response.sendRedirect("Home.html");
 		}
 		else {
-			out.print("Username or Password Incorrect");
 			RequestDispatcher rd=request.getRequestDispatcher("login.html");
+			out.print("<b>"+"Username or Password Incorrect!!"+"</b>");
 			rd.include(request, response);
 		}
 		

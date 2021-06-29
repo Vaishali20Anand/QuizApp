@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="Page-1.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js"></script>
     <script class="u-script" type="text/javascript" src="nicepage.js"></script>
-    <meta name="generator" content="Nicepage 3.15.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
     
@@ -47,18 +46,19 @@
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1">
-            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="events.html" style="padding: 10px 20px;">Updates</a>
-</li>
-</li></ul>
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base" href="contact.html" style="padding: 10px 20px; color:white;">Contact</a></li>
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base" href="index.html" style="padding: 10px 20px; color:white;">Main Page</a></li>
+<li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base" href="events.jsp" style="padding: 10px 20px; color:white;">Updates</a></li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="events.html" style="padding: 10px 20px;">Updates</a>
-</li></ul>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="contact.html" style="padding: 10px 20px;">Contact</a>
+</li><br>     <li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html" style="padding: 10px 20px;">Main Page</a>
+</li><br><li class="u-nav-item"><a class="u-button-style u-nav-link" href="events.jsp" style="padding: 10px 20px;">Updates</a>
+</li><br></ul>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>

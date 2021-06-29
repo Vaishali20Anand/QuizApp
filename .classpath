@@ -58,5 +58,25 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Vaishali Anand/Downloads/AuctionProject-master/AuctionProject-master/src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Vaishali Anand/Downloads/AuctionProject-master/AuctionProject-master/src/main/webapp/WEB-INF/lib/commons-io-2.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Vaishali Anand/Downloads/AuctionProject-master/AuctionProject-master/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.18.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Vaishali Anand/Downloads/AuctionProject-master/AuctionProject-master/src/main/webapp/WEB-INF/lib/org.json.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

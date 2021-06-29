@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ 
  <display-name>QuizApp</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
@@ -61,45 +62,25 @@
     <url-pattern>/profile</url-pattern>  
   </servlet-mapping>  
   
- <context-param>
-    <param-name>host</param-name>
-    <param-value>smtp.gmail.com</param-value>
-</context-param>
- 
-<context-param>
-    <param-name>port</param-name>
-    <param-value>587</param-value>
-</context-param>
- 
-<context-param>
-    <param-name>email</param-name>
-    <param-value>vaishali.anand.1276@gmail.com</param-value>
-</context-param>
- 
-<context-param>
-    <param-name>name</param-name>
-    <param-value>Vaishali Anand</param-value>
-</context-param>
+   <servlet>  
   
-<context-param>
-    <param-name>pass</param-name>
-    <param-value>kiara@373</param-value>
-</context-param>
-
-<servlet>  
-<servlet-name>UploadServlet</servlet-name>  
-<servlet-class>UploadServlet</servlet-class>  
-</servlet>  
+    <servlet-name>ContactServlet</servlet-name>  
+    <servlet-class>ContactServlet</servlet-class>  
+  </servlet>  
   
-<servlet-mapping>  
-<servlet-name>UploadServlet</servlet-name>  
-<url-pattern>/go</url-pattern>  
-</servlet-mapping>  
-
-<servlet>  
-<servlet-name>SendEmail</servlet-name>  
-<servlet-class>Email</servlet-class>  
-</servlet>  
-
+  <servlet-mapping>  
+    <servlet-name>ContactServlet</servlet-name>  
+    <url-pattern>/contact</url-pattern>  
+  </servlet-mapping> 
+   
+  <servlet>
+  <servlet-name>ResetServlet</servlet-name>  
+    <servlet-class>ResetServlet</servlet-class>  
+  </servlet>  
+  
+  <servlet-mapping>  
+    <servlet-name>ResetServlet</servlet-name>  
+    <url-pattern>/reset</url-pattern>  
+  </servlet-mapping>  
   
 </web-app>

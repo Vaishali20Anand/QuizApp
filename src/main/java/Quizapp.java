@@ -33,7 +33,10 @@ stm.setString(2,p);
 stm.setString(3,e);
 
 stm.executeUpdate();
-out.println("Registered!!");
+out.println("<b>"+"Registered!!"+"<br/><br/>");
+out.println("Click <a href='login.html'>HERE</a> to login now!!!!"+"</b><br/><br/>");
+out.println("<img src='https://www.pngkit.com/png/full/675-6752489_like-big-like-comment-likes-namaskaar-youtube-like.png' width='500' height='500'>");
+
 	con.close();
 	}
 catch(Exception se){

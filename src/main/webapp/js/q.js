@@ -1,5 +1,5 @@
 // creating an array and passing the number, questions, options, and answers
-let eid=2;
+let eid=1;
 let questions = [
     {
     numb: 1,

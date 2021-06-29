@@ -37,7 +37,10 @@ ResultSet rs=st.executeQuery(query);
 while(rs.next()) {
 String sid=rs.getString("sid");
 int i=st.executeUpdate("insert into result values('"+ei+"','"+mark+"','"+status+"','"+sid+"')");
-out.println("Data is successfully inserted!");
+out.println("<b>"+"Quiz Submitted Successfully!!!!!"+"</b><br/><br/>");
+out.println("<b>"+"Go back to <a href='Home.html'>Home page</a> !!!!!"+"</b><br/><br/>");
+out.println("<img src='https://www.pngkit.com/png/full/675-6752489_like-big-like-comment-likes-namaskaar-youtube-like.png' width='500' height='500'>");
+
 }
 }
 }

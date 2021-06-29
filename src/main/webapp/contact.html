@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Sign Up</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="About.css" media="screen">
+<link rel="stylesheet" href="Contact.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js"></script>
     <script class="u-script" type="text/javascript" src="nicepage.js"></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
@@ -18,12 +19,10 @@
 		"logo": "images/default-logo.png"
 }</script>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Gaming Login Form Widget Tab Form,Login Forms,Sign up Forms,Registration Forms,News letter Forms,Elements"/>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-e0f0"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <a href="index.html" class="u-image u-logo u-image-1">
@@ -40,19 +39,22 @@
 </defs></svg>
             </a>
           </div>
-         <div class="u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="login.html" style="padding: 10px 20px;color:white;">Login</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="events.jsp" style="padding: 10px 20px;color:white;">Updates</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="contact.html" style="padding: 10px 20px;color:white;">Contact</a>
+          <div class="u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1">
+            <!--  <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="signup.html" style="padding: 10px 20px;color:white;">Sign Up</a>
+</li>-->
+<li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="events.jsp" style="padding: 10px 20px;color:white;">Updates</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;color:white;">Main Page</a>
 </li></ul>
           </div>
           <div class="u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="login.html">Login</a>
-</li><br><li class="u-nav-item"><a class="u-button-style u-nav-link" href="events.jsp">Updates</a>
-</li><br><li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html">Home</a>
+               <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+             
+<li class="u-nav-item"><a class="u-button-style u-nav-link" href="events.jsp">Updates</a>
+</li><br><li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html">Main Page</a>
 </li><br></ul>
               </div>
             </div>
@@ -61,27 +63,23 @@
         </nav>
       </div></header> 
 
-    <body>
-    <div class="padding-all">
+<body>
+	<div class="padding-all">
 		<div class="header">
-			<h1>Sign Up Form</h1>
+			<h1>Contact Form</h1>
 		</div>
+
 		<div class="design-w3l">
 			<div class="mail-form-agile">
-    <form class="login100-form validate-form" action="display" method="post">
-
-<input type="text" placeholder="Name..." name="sname" required/>
-<input type="email" name="email" placeholder="Email address..." required/>
-<input type="password" name="password" placeholder="Password..." required/>
-<div class="container-login100-form-btn">
-<div class="wrap-login100-form-btn">
-<input type="submit" value="Sign Up"/>
-</div>
-</div>
-</form>
-	</div>
+				<form action="contact" method="post" style="color:white;">
+      Name: <input type="text" name="sname" required/><br/>
+      Email: <input type="email" name="email" required/><br/>
+      Message: <input type="text" name="msg" required/><br/>
+      <input type="submit" value="Send Message"/>
+      </form>
+			</div>
 		  <div class="clear"> </div>
 		</div>
-		</div>
+	</div>
 </body>
 </html>

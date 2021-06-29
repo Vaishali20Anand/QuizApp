@@ -23,7 +23,9 @@ public class LogoutServlet extends HttpServlet {
 		
 		HttpSession session= request.getSession();
 		session.invalidate();
-		out.print("You logged out successfully!!!");
+		out.print("<b>"+"You logged out successfully!!!"+"<br/><br/>");
+		out.print("Click <a href='login.html'>HERE</a> to login again!!!!"+"</b><br/><br/>");
+		out.println("<img src='https://www.pngkit.com/png/full/675-6752489_like-big-like-comment-likes-namaskaar-youtube-like.png' width='500' height='500'>");
 		out.close();
 	}
 
